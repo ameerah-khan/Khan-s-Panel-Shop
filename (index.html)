@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khan’s Panel Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav {
+      background-color: #444;
+      display: flex;
+      justify-content: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 20px;
+      display: block;
+    }
+    nav a:hover {
+      background-color: #e60000;
+    }
+    section {
+      padding: 30px;
+      max-width: 1000px;
+      margin: auto;
+      background: white;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #e60000;
+    }
+    .services ul {
+      list-style: none;
+      padding: 0;
+    }
+    .services li {
+      padding: 8px 0;
+    }
+    footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+    .contact-info {
+      line-height: 1.8;
+    }
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .contact-form button {
+      background: #e60000;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Khan’s Panel Shop</h1>
+    <p>Restoring cars, rebuilding lives</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#services">Services</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At Khan’s Panel Shop, we believe every car deserves a second chance. Founded by <b>Anwar Khan</b>, a qualified boilermaker and panel beater with <b>over 35 years of experience</b>, our shop is built on passion, honesty, and dedication.
+    </p>
+    <p>
+      Anwar grew up in a community struck by poverty but turned his career into a lifelong mission. He not only restores cars but also uplifts local unemployed youth by giving them skills, knowledge, and opportunities to join bigger firms. 
+    </p>
+    <p>
+      Khan’s Panel Shop is committed to quality workmanship, affordable prices, and giving back to the community.
+    </p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>✅ Panel Beating – Accident damage, dents, and body repairs</li>
+      <li>✅ Respraying – Full resprays, touch-ups, and custom paint jobs</li>
+      <li>✅ Restoration & Modifications – Bring old cars back to life or customize your ride</li>
+      <li>✅ Parts Replacement – Doors, fenders, bumpers, and more</li>
+      <li>✅ Contract Work – Affordable and reliable solutions for fleets and insurance</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery</h2>
+    <p><i>(Before & After pictures of cars will go here)</i></p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      📍 Location: Lenasia, Johannesburg <br>
+      📞 Phone/WhatsApp: 065 893 5410 / +27 60 229 1739 <br>
+      📧 Email: <a href="mailto:ameerahkhan694@gmail.com">ameerahkhan694@gmail.com</a>
+    </div>
+    <h3>Send us a Message</h3>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Khan’s Panel Shop | Designed with ❤️ in South Africa</p>
+  </footer>
+</body>
+</html>
